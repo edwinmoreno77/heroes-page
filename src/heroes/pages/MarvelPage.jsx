@@ -2,6 +2,6 @@
 
 export const MarvelPage = () => {
     return (
-        <div>MarvelPage</div>
+        <h1>MarvelPage</h1>
     )
 }
