@@ -9,7 +9,7 @@ export const HeroCard = ({
     characters,
 }) => {
 
-    const heroImageUrl = `https://edwinmoreno77.github.io/heroes-page/docs/assets/img/${id}.jpg`;
+    const heroImageUrl = `https://github.com/edwinmoreno77/heroes-page/docs/assets/img/${id}.jpg)`;
 
     return (
         <div className='col animate__animated animate__fadeIn'>
