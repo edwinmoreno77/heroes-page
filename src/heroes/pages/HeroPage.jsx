@@ -27,14 +27,14 @@ export const HeroPage = () => {
 
     return (
         <div className="row mt-5">
-            <div className="col-4">
+            <div className="col-5">
                 <img
                     src={heroImageUrl}
                     alt={hero.superhero}
                     className="img-thumbnail animate__animated animate__fadeInLeft shadow"
                 />
             </div>
-            <div className="col-8">
+            <div className="col-7">
                 <h3>{hero.superhero}</h3>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item"><b>Alter_ego: </b>{hero.alter_ego}</li>
@@ -48,7 +48,7 @@ export const HeroPage = () => {
                 <button
                     onClick={onNavigateBack}
                     className="btn btn-outline-primary shadow">
-                    Regresar
+                    Return
                 </button>
 
             </div>
