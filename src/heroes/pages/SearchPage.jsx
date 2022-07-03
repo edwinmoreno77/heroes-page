@@ -35,14 +35,13 @@ export const SearchPage = () => {
 
     return (
         <>
-            <h1>Search</h1>
-            <hr />
+            <h1 className="m-3">Search</h1>
 
             <div className="row">
 
-                <div className="col-5">
-                    <h4>Searching</h4>
+                <div className="col-5 p-5">
                     <hr />
+                    <h4>Searching</h4>
                     <form onSubmit={onSearchSubmit}>
                         <input
                             className="form-control shadow mt-4"
@@ -54,7 +53,7 @@ export const SearchPage = () => {
                             onChange={onInputChange}
                         />
 
-                        <button className="btn btn-outline-primary mt-5 shadow">
+                        <button className="btn btn-outline-primary mt-3 shadow">
                             Search
                         </button>
                     </form>

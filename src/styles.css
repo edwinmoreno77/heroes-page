@@ -3,11 +3,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-code {
+  code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -18,7 +18,7 @@ code {
 }
 
 @media(min-width: 576px){
-   .btn1{
+  .btn1{
     justify-content: flex-end;
   }
 
@@ -27,7 +27,25 @@ code {
 
 .col-hero{
   height: 10em;
-    
+  
+}
+
+.img-background{
+  background-image: url('/assets/img/avenger-background.jpg');
+}
+
+.img-carousel-1 img{
+  width: 100%;
+  height: 100%;
+}
+.img-carousel-2 img{
+  width: 90%;
+  height: 100%;
+}
+
+.img-carousel-3 img{
+  width: 87.5%;
+  height: 100%;
 }
 
 
