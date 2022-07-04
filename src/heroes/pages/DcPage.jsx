@@ -1,15 +1,13 @@
+import { SliderDc } from "../../ui/components";
 import { HeroList } from "../components";
 
 
 export const DcPage = () => {
     return (
         <>
+            <SliderDc />
 
-            <h1 className="mt-5">Dc Page</h1>
-            <hr />
             <HeroList publisher={'DC Comics'} />
-
-
         </>
     )
 }

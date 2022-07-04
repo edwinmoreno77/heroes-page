@@ -2,4 +2,6 @@
 
 
 export * from './Navbar';
-export * from './Slider';
+export * from './SliderMarvel';
+export * from './SliderDc';
+
