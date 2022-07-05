@@ -17,7 +17,7 @@ export const Navbar = () => {
                 className="navbar-brand m-2"
                 to="/"
             >
-                Heroes
+                <b>Heroes</b>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -30,21 +30,21 @@ export const Navbar = () => {
                             className={({ isActive }) => `nav-item nav-link m-1 ${isActive ? 'active' : ''}`}
                             to="/marvel"
                         >
-                            Marvel
+                            <b> Marvel</b>
                         </NavLink>
 
                         <NavLink
                             className={({ isActive }) => `nav-item nav-link m-1 ${isActive ? 'active' : ''}`}
                             to="/dc"
                         >
-                            DC
+                            <b>DC</b>
                         </NavLink>
 
                         <NavLink
                             className={({ isActive }) => `nav-item nav-link m-1 ${isActive ? 'active' : ''}`}
                             to="/search"
                         >
-                            Search
+                            <b>Search</b>
                         </NavLink>
 
                     </div>
@@ -55,7 +55,7 @@ export const Navbar = () => {
                         <button
                             onClick={onLogout}
                             className='nav-item nav-link btn '>
-                            Logout
+                            <b>Logout</b>
                         </button>
                     </ul>
                 </div>
