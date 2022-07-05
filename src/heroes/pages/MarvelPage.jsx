@@ -8,7 +8,7 @@ export const MarvelPage = () => {
     return (
         <>
             <SliderMarvel />
-            <div className="container">
+            <div className="m-3">
                 <HeroList publisher={'Marvel Comics'} />
             </div>
         </>

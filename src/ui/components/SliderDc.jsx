@@ -16,14 +16,14 @@ export const SliderDc = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="d-flex justify-content-center img-carousel-1">
-                                <img src="assets/img/bg-LJ.png" className="d-block" alt="..." />
+                                <img src="assets/img/JusticeLeague-Backgrounds.jpg" className="d-block" alt="..." />
                             </div>
                             <div className="carousel-caption d-none d-md-block text-dark">
                             </div>
                         </div>
                         <div className="carousel-item">
                             <div className="d-flex justify-content-center img-carousel-2">
-                                <img src="/assets/img/JusticeLeague-Backgrounds.jpg " className="d-block" alt="..." />
+                                <img src="/assets/img/bg-LJ.png" className="d-block" alt="..." />
                             </div>
                             <div className="carousel-caption d-none d-md-block text-dark">
                             </div>

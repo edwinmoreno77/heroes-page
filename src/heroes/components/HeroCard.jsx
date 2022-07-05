@@ -12,7 +12,7 @@ export const HeroCard = ({
     const heroImageUrl = `./assets/img/${id}.jpg`;
     return (
         <div className='col animate__animated animate__fadeIn'>
-            <div className='card shadow'>
+            <div className='card shadow mb-2'>
                 <div className='row no-gutters'>
                     <div className='col-12'>
                         <img src={heroImageUrl} className='card-img img shadow' alt={superhero} />

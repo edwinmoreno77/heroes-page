@@ -19,7 +19,7 @@ export const SliderMarvel = () => {
 
                         <div className="carousel-item active">
                             <div className="d-flex justify-content-center img-carousel-Av-1">
-                                <img src="/assets/img/avenger-bg.jpg" className="d-block" alt="..." />
+                                <img src="/assets/img/slider2-avenger.jpg" className="d-block" alt="..." />
                             </div>
                             <div className="carousel-caption d-none d-md-block text-dark">
                             </div>
@@ -27,7 +27,7 @@ export const SliderMarvel = () => {
 
                         <div className="carousel-item">
                             <div className="d-flex justify-content-center img-carousel-Av-2">
-                                <img src="/assets/img/slider2-avenger.jpg" className="d-block" alt="..." />
+                                <img src="/assets/img/avenger-bg.jpg" className="d-block" alt="..." />
                             </div>
                             <div className="carousel-caption d-none d-md-block text-dark">
                             </div>

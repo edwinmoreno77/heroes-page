@@ -35,16 +35,13 @@ export const SearchPage = () => {
 
     return (
         <>
-            <h1 className="m-3">Search</h1>
+            <div className="row searchImg d-block">
 
-            <div className="row">
-
-                <div className="col-5 p-5">
-                    <hr />
+                <div className="col-6 m-5">
                     <h4>Searching</h4>
                     <form onSubmit={onSearchSubmit}>
                         <input
-                            className="form-control shadow mt-4"
+                            className="form-control shadow mt-5"
                             placeholder="Search a hero"
                             type="text"
                             name="searchText"
@@ -53,16 +50,22 @@ export const SearchPage = () => {
                             onChange={onInputChange}
                         />
 
-                        <button className="btn btn-outline-primary mt-3 shadow">
+                        <button className="btn btn-outline-primary mt-5 shadow">
                             Search
                         </button>
                     </form>
 
+                    {/* <div className="m-1">
+                        <img src="/assets/img/JusticeLeague-Backgrounds2.jpg" alt="" />
+                    </div> */}
+
+
                 </div>
 
-                <div className="col-7">
-                    <h4>Results</h4>
-                    <hr />
+                <div className="col-4 m-5">
+
+                    <h4 className="mt-5">Results</h4>
+
 
                     {/* {
                         (q === '')
@@ -70,15 +73,17 @@ export const SearchPage = () => {
                             : (heroes.length === 0)
                             && <div className="alert alert-danger">No hero with <b>{q}</b></div>
                     } */}
-                    <div className="alert alert-primary animate__animated animate__fadeIn"
+                    <div className=" mt-5 mb-5 alert alert-primary animate__animated animate__fadeIn"
                         style={{ display: showSearch ? '' : 'none' }}>
                         Search a hero
                     </div>
 
-                    <div className="alert alert-danger animate__animated animate__fadeIn"
+
+                    <div className="mb-5 alert alert-danger animate__animated animate__fadeIn"
                         style={{ display: showError ? '' : 'none' }}>
                         No hero with <b>{q}</b>
                     </div>
+                    <hr />
 
                     {
                         heroes.map(hero => (

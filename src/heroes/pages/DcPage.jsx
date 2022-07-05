@@ -6,7 +6,7 @@ export const DcPage = () => {
     return (
         <>
             <SliderDc />
-            <div className="container">
+            <div className="m-3">
                 <HeroList publisher={'DC Comics'} />
             </div>
         </>

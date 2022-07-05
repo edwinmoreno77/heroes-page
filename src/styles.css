@@ -5,11 +5,22 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+   
   }
 
   code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.page-container{
+  display: flex;
+  flex-direction:column;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  flex: 1;
 }
 
 .img{
@@ -37,15 +48,31 @@ body {
 /* slider DC */
 
 .img-carousel-1 img{
-  width: 60%;
+  width: 75%;
 
 }
 .img-carousel-2 img{
+  width: 100%;
+
+}
+.img-carousel-3 img{
+  width: 100%;
+
+}
+
+@media(min-width: 770px){
+ .img-carousel-1 img{
   width: 45%;
+
+}
+.img-carousel-2 img{
+  width: 60%;
 
 }
 .img-carousel-3 img{
   width: 60%;
+
+}
 
 }
 /* slider DC */
@@ -53,6 +80,20 @@ body {
 
 
 /* slider Avenger */
+.img-carousel-Av-1 img{
+  width: 83%;
+
+}
+.img-carousel-Av-2 img{
+  width: 83%;
+
+}
+.img-carousel-Av-3 img{
+  width: 83%;
+
+}
+
+@media(min-width: 770px){
 .img-carousel-Av-1 img{
   width: 60%;
 
@@ -65,7 +106,11 @@ body {
   width: 60%;
 
 }
+
+}
 /* slider Avenger */
 
-
+.searchImg{
+  background-image: url('./assets/img/JusticeLeague-Backgrounds2.jpg');
+}
 
