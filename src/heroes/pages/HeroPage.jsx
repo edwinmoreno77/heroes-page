@@ -47,7 +47,7 @@ export const HeroPage = () => {
 
                 <button
                     onClick={onNavigateBack}
-                    className="btn btn-outline-primary shadow">
+                    className="btn btn-outline-primary shadow mb-5">
                     Return
                 </button>
 

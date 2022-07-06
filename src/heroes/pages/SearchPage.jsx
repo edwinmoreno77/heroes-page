@@ -62,12 +62,8 @@ export const SearchPage = () => {
 
                 </div>
 
-                <h4 className="ms-5">Results:</h4>
                 <div className="container">
                     <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 m-5 p-5">
-
-
-
                         {/* {
                         (q === '')
                             ? <div className="alert alert-warning">Search a hero</div>
@@ -78,7 +74,6 @@ export const SearchPage = () => {
                             style={{ display: showSearch ? '' : 'none' }}>
                             Search a hero
                         </div>
-
 
                         <div className="mb-5 alert alert-danger animate__animated animate__fadeIn"
                             style={{ display: showError ? '' : 'none' }}>

@@ -11,7 +11,7 @@ export const LoginPage = () => {
         });
     }
     return (
-        <div className="container mt-5">
+        <div className="m-5">
             <h1>Login Page</h1>
             <hr />
 
@@ -20,6 +20,12 @@ export const LoginPage = () => {
                 className="btn btn-primary">
                 Login
             </button>
+            <div className="row">
+                <div className="col-4">
+                    <img src="/assets/img/JusticeLeague-Backgrounds2.jpg" alt="" />
+                </div>
+            </div>
+
 
         </div>
     )
