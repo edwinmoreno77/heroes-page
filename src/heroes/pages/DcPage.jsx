@@ -9,6 +9,8 @@ export const DcPage = () => {
             <div className="m-3">
                 <HeroList publisher={'DC Comics'} />
             </div>
+
         </>
+
     )
 }

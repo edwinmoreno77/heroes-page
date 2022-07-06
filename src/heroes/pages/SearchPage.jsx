@@ -35,9 +35,9 @@ export const SearchPage = () => {
 
     return (
         <>
-            <div className="row searchImg d-block">
+            <div className="row searchImgBg">
 
-                <div className="col-6 m-5">
+                <div className="col-8 m-5">
                     <h4>Searching</h4>
                     <form onSubmit={onSearchSubmit}>
                         <input
@@ -50,7 +50,7 @@ export const SearchPage = () => {
                             onChange={onInputChange}
                         />
 
-                        <button className="btn btn-outline-primary mt-5 shadow">
+                        <button className="btn btn-outline-primary mt-2 shadow">
                             Search
                         </button>
                     </form>
@@ -62,34 +62,36 @@ export const SearchPage = () => {
 
                 </div>
 
-                <div className="col-4 m-5">
+                <h4 className="ms-5">Results:</h4>
+                <div className="container">
+                    <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 m-5 p-5">
 
-                    <h4 className="mt-5">Results</h4>
 
 
-                    {/* {
+                        {/* {
                         (q === '')
                             ? <div className="alert alert-warning">Search a hero</div>
                             : (heroes.length === 0)
                             && <div className="alert alert-danger">No hero with <b>{q}</b></div>
                     } */}
-                    <div className=" mt-5 mb-5 alert alert-primary animate__animated animate__fadeIn"
-                        style={{ display: showSearch ? '' : 'none' }}>
-                        Search a hero
+                        <div className=" mt-5 alert alert-primary animate__animated animate__fadeIn"
+                            style={{ display: showSearch ? '' : 'none' }}>
+                            Search a hero
+                        </div>
+
+
+                        <div className="mb-5 alert alert-danger animate__animated animate__fadeIn"
+                            style={{ display: showError ? '' : 'none' }}>
+                            No hero with <b>{q}</b>
+                        </div>
+
+                        {
+                            heroes.map(hero => (
+                                <HeroCard key={hero.id} {...hero} />
+                            ))
+                        }
                     </div>
 
-
-                    <div className="mb-5 alert alert-danger animate__animated animate__fadeIn"
-                        style={{ display: showError ? '' : 'none' }}>
-                        No hero with <b>{q}</b>
-                    </div>
-                    <hr />
-
-                    {
-                        heroes.map(hero => (
-                            <HeroCard key={hero.id} {...hero} />
-                        ))
-                    }
                 </div>
 
             </div>

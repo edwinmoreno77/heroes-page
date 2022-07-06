@@ -36,10 +36,10 @@ body {
 
 }
 
-.col-hero{
+/* .col-hero{
   height: 10em;
   
-}
+} */
 
 .img-background{
   background-image: url('/assets/img/fondo-marvel3.jpg');
@@ -81,15 +81,15 @@ body {
 
 /* slider Avenger */
 .img-carousel-Av-1 img{
-  width: 83%;
+  width: 100%;
 
 }
 .img-carousel-Av-2 img{
-  width: 83%;
+  width: 100%;
 
 }
 .img-carousel-Av-3 img{
-  width: 83%;
+  width: 100%;
 
 }
 
@@ -110,7 +110,10 @@ body {
 }
 /* slider Avenger */
 
-.searchImg{
-  background-image: url('./assets/img/JusticeLeague-Backgrounds2.jpg');
+.searchImgBg{
+  background-image: url('/assets/img/JusticeLeague-Backgrounds2.jpg');
 }
+
+
+
 
