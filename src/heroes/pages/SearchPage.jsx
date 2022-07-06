@@ -55,11 +55,6 @@ export const SearchPage = () => {
                         </button>
                     </form>
 
-                    {/* <div className="m-1">
-                        <img src="/assets/img/JusticeLeague-Backgrounds2.jpg" alt="" />
-                    </div> */}
-
-
                 </div>
 
                 <div className="container">
