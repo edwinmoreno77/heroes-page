@@ -3,110 +3,139 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-   
-  }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-  code {
+}
+
+code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 
-.img{
+.img {
   width: 100%;
   height: 100%;
 }
 
 
-@media(min-width: 576px){
-  .btn1{
+/* logout button from right to left */
+@media(min-width: 576px) {
+  .btn1 {
     justify-content: flex-end;
   }
 
 
 }
 
+/* logout button from right to left */
 
-/* .col-hero{
-  height: 10em;
-  
-} */
-
-.img-background{
-  background-image: url('/assets/img/fondo-marvel3.jpg');
-}
 
 /* slider DC */
 
-.img-carousel-1 img{
+.img-carousel-1 img {
   width: 75%;
 
 }
-.img-carousel-2 img{
+
+.img-carousel-2 img {
   width: 100%;
 
 }
-.img-carousel-3 img{
+
+.img-carousel-3 img {
   width: 100%;
 
 }
 
-@media(min-width: 770px){
- .img-carousel-1 img{
-  width: 45%;
+@media(min-width: 770px) {
+  .img-carousel-1 img {
+    width: 45%;
+
+  }
+
+  .img-carousel-2 img {
+    width: 60%;
+
+  }
+
+  .img-carousel-3 img {
+    width: 60%;
+
+  }
 
 }
-.img-carousel-2 img{
-  width: 60%;
 
-}
-.img-carousel-3 img{
-  width: 60%;
-
-}
-
-}
 /* slider DC */
 
 
 
 /* slider Avenger */
-.img-carousel-Av-1 img{
-  width: 100%;
-
-}
-.img-carousel-Av-2 img{
-  width: 100%;
-
-}
-.img-carousel-Av-3 img{
+.img-carousel-Av-1 img {
   width: 100%;
 
 }
 
-@media(min-width: 770px){
-.img-carousel-Av-1 img{
-  width: 60%;
-
-}
-.img-carousel-Av-2 img{
-  width: 60%;
-
-}
-.img-carousel-Av-3 img{
-  width: 60%;
+.img-carousel-Av-2 img {
+  width: 100%;
 
 }
 
+.img-carousel-Av-3 img {
+  width: 100%;
+
 }
+
+@media(min-width: 770px) {
+  .img-carousel-Av-1 img {
+    width: 60%;
+
+  }
+
+  .img-carousel-Av-2 img {
+    width: 60%;
+
+  }
+
+  .img-carousel-Av-3 img {
+    width: 60%;
+
+  }
+
+}
+
 /* slider Avenger */
 
-.searchImgBg{
+
+/* backgound search page */
+.searchImgBg {
   background-image: url('/assets/img/JusticeLeague-Backgrounds2.jpg');
 }
 
+/* backgound search page */
 
 
+/* backgound  */
+.img-background {
+  background-image: url('/assets/img/fondo-marvel3.jpg');
+}
 
+/* backgound  */
+
+
+/* effect on cards */
+.imgCard img {
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.imgCard :hover img {
+  transform: scale(1.025);
+  box-sizing: var(--big-shadow);
+
+
+}
+
+/* effect on cards */
