@@ -1,12 +1,5 @@
 # Heroes-Page.
 
-The first thing we need to do after downloading the code is to run the command:
+run ```yarn install ``` to rebuild node modules.
 
-```
-yarn install
-```
-
-That command will download all the node modules needed to run the project.
-
-
-### To see the project visit https://heroes-page.netlify.app/
+### To see the project visit https://webapp-prueba.herokuapp.com/
