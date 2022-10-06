@@ -132,10 +132,7 @@ code {
 }
 
 .imgCard :hover img {
-  transform: scale(1.025);
-  box-sizing: var(--big-shadow);
-
-
+  transform: scale(1.015);
 }
 
 /* effect on cards */
