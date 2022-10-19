@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchPahe/> test should show component 1`] = `
+<div>
+  <div
+    class="row searchImgBg"
+  >
+    <div
+      class="col-8 m-5"
+    >
+      <h4>
+        Searching
+      </h4>
+      <form>
+        <input
+          autocomplete="off"
+          class="form-control shadow mt-5"
+          name="searchText"
+          placeholder="Search a hero"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-outline-primary mt-2 shadow"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 m-5 p-5"
+      >
+        <div
+          class=" mt-5 alert alert-primary animate__animated animate__fadeIn"
+        >
+          Search a hero
+        </div>
+        <div
+          class="mb-5 alert alert-danger animate__animated animate__fadeIn"
+          data-testid="div-display-none"
+          style="display: none;"
+        >
+          No hero with 
+          <b />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
